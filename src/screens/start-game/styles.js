@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     backgroundColor: theme.colors.white,
   },
   title: {
-    fontSize: 20,
+    fontSize: 16,
     color: theme.colors.text,
     textAlign: 'center',
     paddingVertical: 20,
@@ -20,14 +20,14 @@ export const styles = StyleSheet.create({
   },
   label: {
     fontSize: 14,
-    color: theme.colors.black,
+    color: theme.colors.text,
     paddingVertical: 5,
     textAlign: 'center',
   },
   input: {
-    //width: '100%',
-    borderBottomColor: theme.colors.secondary,
-    borderBottomWidth: 2,
+    // width: '100%',
+    borderBottomColor: theme.colors.primary,
+    borderBottomWidth: 1,
     minWidth: 70,
     fontSize: 20,
     textAlign: 'center',
@@ -38,5 +38,15 @@ export const styles = StyleSheet.create({
     width: '80%',
     justifyContent: 'space-around',
     marginTop: 20,
+  },
+  confirmedContainer: {
+    height: 150,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginVertical: 40,
+    marginHorizontal: 20,
+  },
+  confirmedTitle: {
+    fontSize: 16,
   },
 });

@@ -5,7 +5,7 @@ import { styles } from './styles';
 const Game = () => {
   return (
     <View style={styles.container}>
-      <Text>Game</Text>
+      <Text>Game.</Text>
     </View>
   );
 };
