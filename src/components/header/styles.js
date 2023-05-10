@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     color: theme.colors.white,
-    fontWeight: 'bold',
+    fontFamily: 'Inter-Bold',
     fontSize: 20,
   },
 });
